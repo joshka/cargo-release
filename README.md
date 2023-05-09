@@ -11,10 +11,11 @@ Features
   - Optionally share commits
 - Handles `cargo publish`, tagging, and pushing
 - Pre-release search and replace for custom version updates, including
-  - Updating changelogs
+  - [Updating changelogs](docs/faq.md#maintaining-changelog)
   - Update tags in `Dockerfile`s
 - Pre-release hook for extra customization, including
-  - [CHANGELOG generation](https://github.com/orhun/git-cliff)
+  - [CHANGELOG generation](docs/faq.md#maintaining-changelog) using
+    [git-cliff](https://git-cliff.org/)
 
 ## Install
 
